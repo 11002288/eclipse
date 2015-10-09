@@ -21,7 +21,7 @@ if (twolegs.equals("yes")) {
 }String water=JOptionPane.showInputDialog("does it live in water");
 if (water.equals("yes")) {
 	JOptionPane.showMessageDialog(null, "it might be a fish");
-}
+}else JOptionPane.showMessageDialog(null, "it might be a fish");
 		}
 
 	}
